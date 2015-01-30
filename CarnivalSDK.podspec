@@ -7,6 +7,8 @@ Pod::Spec.new do |s|
   s.author       = { "Adam Jones" => "http://docs.carnivalmobile.com" }
   s.platform     = :ios, '7.0'
   s.source       = { :git => "git@github.com:BrokenHomeStudiosLLC/Carnival-iOS-SDK.git", :tag => '2.9' }
-  s.source_files = '*'
+  s.source_files = 'Carnival.framework/Headers'
+  s.resources = 'Resources/CarnivalResources.bundle' 
+  s.frameworks = 'Carnival'
   s.requires_arc = false
 end
