@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "Carnival-iOS-SDK"
+  s.name         = "Carnival"
   s.version      = "2.9"
   s.summary      = "This is the summary"
   s.description  = "This is the extra long description for more detail than the summary"
